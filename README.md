@@ -223,5 +223,5 @@ public class NestedStaticallyDeterminableIfTest {
 }
 ```
 ![](resources/readme_images/nested_statically_determinable_if.svg)
-#   c s 4 1 0 - p r o j e c t 1  
+ 
  
