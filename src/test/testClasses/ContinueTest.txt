@@ -1,0 +1,20 @@
+package testClasses;
+
+// NOTE: This code is in a txt file since intellij doesn't allow us to have unreachable code.
+public class ContinueTest {
+    public void loops() {
+        for (int i = 0; i < 8; i++) {
+            for (int j = 0; j < 8; j++) {
+                System.out.println("ALIVE!");
+                // By-passes error. But causes bug in our program (don't allow users to do this!!)
+                //if (true) {
+                //    continue;
+                //}
+                continue;
+                System.out.println("DEAD!");
+
+            }
+            System.out.println("ALIVE2!");
+        }
+    }
+}

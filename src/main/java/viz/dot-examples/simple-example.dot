@@ -1,0 +1,42 @@
+digraph {
+    subgraph cluster1 {
+    label = "f()"
+    node [
+    shape=ellipse,
+    style=filled,
+    ];
+    a1 -> a2 -> a3;
+    a1 -> a2 [style="dashed"]
+    start -> a1 [style = "dotted"]
+    start -> b1 [style = "solid"]
+    a3 -> end [style = "invis"]
+    b3 -> end
+    b1 -> b2 -> b3;
+    b2 -> b1;
+    b2 [shape=diamond, label="i <= 2"];
+    start [shape = rectangle, style=filled,
+    color=green, fontcolor=white];
+    end [shape = rectangle, color=red,
+    style=filled, fontcolor = white];
+    }
+
+    subgraph cluster2 {
+    label = "g()"
+    node [
+    shape=ellipse,
+    style=filled,
+    ];
+    c1 -> c2 -> c3;
+    dstart -> c1;
+    dstart -> d1;
+    c3 -> dend;
+    d3 -> dend;
+    d1 -> d2 -> d3;
+    d2 -> d1;
+    d2 [shape=diamond];
+    dstart [shape = rectangle, style=filled,
+    color=green, fontcolor=white, label="start"];
+    dend [shape = rectangle, color=red,
+    style=filled, fontcolor = white, label="end"];
+    }
+}

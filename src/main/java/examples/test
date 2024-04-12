@@ -1,0 +1,7 @@
+public class Blah {
+     public void b_method(Number x) {
+         System.out.println("The value of x is: " + x.toString());
+         Temporary t = new Temporary("some arg");
+         t.printName();
+     }
+}

@@ -1,0 +1,40 @@
+graph {
+    // Define rank (level of the node)
+    { rank=same; white}
+    { rank=same; cyan; yellow; pink}
+    { rank=same; red; green; blue}
+    { rank=same; black}
+
+    // define color
+    white [color=white]
+    cyan [color=cyan]
+    yellow [color=yellow]
+    pink [color=pink]
+    red [color=red]
+    green [color=green]
+    blue [color=blue]
+    black [color=black]
+
+    // define the edges for the paths that can't be taken
+    subgraph dashed_edges {
+        edge [style=dashed, color=gray]
+        cyan -- green
+        yellow -- red
+        pink -- blue
+    }
+
+    // define the remaining edges (and color the edges if needed)
+    white -- cyan -- blue [color=blue]
+    white -- yellow -- green [color=green]
+    white -- pink -- red [color=red]
+    cyan -- black [color=gray]
+    green -- black [color=gray]
+    yellow -- black [color=gray]
+    red -- black [color=gray]
+    pink -- black [color=gray]
+    blue -- black [color=gray]
+
+
+
+
+}

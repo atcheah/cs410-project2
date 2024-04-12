@@ -1,0 +1,302 @@
+<svg width="746px" height="963px"
+ viewBox="0.00 0.00 746.00 962.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0.0) translate(4.0 958.5)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-958.5 742,-958.5 742,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster0</title>
+<polygon fill="none" stroke="black" points="8,-8 8,-946.5 365,-946.5 365,-8 8,-8"/>
+<text text-anchor="middle" x="186.5" y="-929.2" font-family="Times,serif" font-size="14.00">foo()</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster1</title>
+<polygon fill="none" stroke="black" points="373,-169.5 373,-946.5 730,-946.5 730,-169.5 373,-169.5"/>
+<text text-anchor="middle" x="551.5" y="-929.2" font-family="Times,serif" font-size="14.00">boo(int x, String str, boolean isScary)</text>
+</g>
+<!-- start1 -->
+<g id="node1" class="node">
+<title>start1</title>
+<polygon fill="green" stroke="green" points="283,-914 229,-914 229,-878 283,-878 283,-914"/>
+<text text-anchor="middle" x="256" y="-890.95" font-family="Times,serif" font-size="14.00" fill="white">start</text>
+</g>
+<!-- node0 -->
+<g id="node2" class="node">
+<title>node0</title>
+<polygon fill="none" stroke="black" points="287.62,-841 224.38,-841 224.38,-805 287.62,-805 287.62,-841"/>
+<text text-anchor="middle" x="256" y="-817.95" font-family="Times,serif" font-size="14.00">int x = 0</text>
+</g>
+<!-- start1&#45;&gt;node0 -->
+<g id="edge1" class="edge">
+<title>start1&#45;&gt;node0</title>
+<path fill="none" stroke="black" d="M256,-877.81C256,-870.23 256,-861.1 256,-852.54"/>
+<polygon fill="black" stroke="black" points="259.5,-852.54 256,-842.54 252.5,-852.54 259.5,-852.54"/>
+</g>
+<!-- node1 -->
+<g id="node3" class="node">
+<title>node1</title>
+<polygon fill="none" stroke="black" points="323.62,-752.5 188.38,-752.5 188.38,-716.5 323.62,-716.5 323.62,-752.5"/>
+<text text-anchor="middle" x="256" y="-729.45" font-family="Times,serif" font-size="14.00">boo(8, &quot;Scary&quot;, false)</text>
+</g>
+<!-- node0&#45;&gt;node1 -->
+<g id="edge2" class="edge">
+<title>node0&#45;&gt;node1</title>
+<path fill="none" stroke="black" d="M256,-804.91C256,-793.26 256,-777.55 256,-764.02"/>
+<polygon fill="black" stroke="black" points="259.5,-764.36 256,-754.36 252.5,-764.36 259.5,-764.36"/>
+</g>
+<!-- node2 -->
+<g id="node4" class="node">
+<title>node2</title>
+<polygon fill="none" stroke="black" points="256,-679.5 192.06,-661.5 256,-643.5 319.94,-661.5 256,-679.5"/>
+<text text-anchor="middle" x="256" y="-656.45" font-family="Times,serif" font-size="14.00">if (x &gt; 1)</text>
+</g>
+<!-- node1&#45;&gt;node2 -->
+<g id="edge3" class="edge">
+<title>node1&#45;&gt;node2</title>
+<path fill="none" stroke="black" d="M256,-716.31C256,-708.73 256,-699.6 256,-691.04"/>
+<polygon fill="black" stroke="black" points="259.5,-691.04 256,-681.04 252.5,-691.04 259.5,-691.04"/>
+</g>
+<!-- node3 -->
+<g id="node5" class="node">
+<title>node3</title>
+<polygon fill="none" stroke="black" points="299.88,-591 16.12,-591 16.12,-555 299.88,-555 299.88,-591"/>
+<text text-anchor="middle" x="158" y="-567.95" font-family="Times,serif" font-size="14.00">System.out.println(&quot;X IS GREATER THAN 1!&quot;)</text>
+</g>
+<!-- node2&#45;&gt;node3 -->
+<g id="edge4" class="edge">
+<title>node2&#45;&gt;node3</title>
+<path fill="none" stroke="black" d="M241.12,-647.36C226.58,-634.53 204.08,-614.67 186.15,-598.85"/>
+<polygon fill="black" stroke="black" points="188.72,-596.45 178.91,-592.46 184.09,-601.7 188.72,-596.45"/>
+<text text-anchor="middle" x="226.62" y="-612.2" font-family="Times,serif" font-size="14.00">then</text>
+</g>
+<!-- node4 -->
+<g id="node6" class="node">
+<title>node4</title>
+<polygon fill="none" stroke="black" points="190,-483 55.13,-465 190,-447 324.87,-465 190,-483"/>
+<text text-anchor="middle" x="190" y="-459.95" font-family="Times,serif" font-size="14.00">if (str.equals(&quot;Scary&quot;))</text>
+</g>
+<!-- node2&#45;&gt;node4 -->
+<g id="edge5" class="edge">
+<title>node2&#45;&gt;node4</title>
+<path fill="none" stroke="black" d="M270.91,-647.51C291.87,-627.61 325.71,-588.36 309,-555 292.87,-522.78 258.92,-499.23 231.4,-484.48"/>
+<polygon fill="black" stroke="black" points="233.06,-481.39 222.56,-479.94 229.86,-487.62 233.06,-481.39"/>
+<text text-anchor="middle" x="323.5" y="-567.95" font-family="Times,serif" font-size="14.00">else</text>
+</g>
+<!-- node3&#45;&gt;node4 -->
+<g id="edge6" class="edge">
+<title>node3&#45;&gt;node4</title>
+<path fill="none" stroke="black" d="M163.14,-554.97C168.14,-538.41 175.81,-512.99 181.68,-493.56"/>
+<polygon fill="black" stroke="black" points="185,-494.67 184.54,-484.09 178.3,-492.65 185,-494.67"/>
+</g>
+<!-- node5 -->
+<g id="node7" class="node">
+<title>node5</title>
+<polygon fill="none" stroke="black" points="231.25,-394.5 30.75,-394.5 30.75,-358.5 231.25,-358.5 231.25,-394.5"/>
+<text text-anchor="middle" x="131" y="-371.45" font-family="Times,serif" font-size="14.00">System.out.println(&quot;BOOOOO!&quot;)</text>
+</g>
+<!-- node4&#45;&gt;node5 -->
+<g id="edge7" class="edge">
+<title>node4&#45;&gt;node5</title>
+<path fill="none" stroke="black" d="M179.18,-448.13C170.8,-435.85 159,-418.56 149.18,-404.16"/>
+<polygon fill="black" stroke="black" points="152.14,-402.29 143.62,-396 146.36,-406.23 152.14,-402.29"/>
+<text text-anchor="middle" x="176.62" y="-415.7" font-family="Times,serif" font-size="14.00">then</text>
+</g>
+<!-- node9 -->
+<g id="node12" class="node">
+<title>node9</title>
+<polygon fill="none" stroke="black" points="292.5,-340.5 195.5,-340.5 195.5,-304.5 292.5,-304.5 292.5,-340.5"/>
+<text text-anchor="middle" x="244" y="-317.45" font-family="Times,serif" font-size="14.00">isScary = false</text>
+</g>
+<!-- node4&#45;&gt;node9 -->
+<g id="edge8" class="edge">
+<title>node4&#45;&gt;node9</title>
+<path fill="none" stroke="red" stroke-dasharray="1,5" d="M205.03,-448.67C216.89,-435.5 232.61,-415.38 240,-394.5 244.73,-381.13 246.02,-365.47 246,-352.26"/>
+<polygon fill="red" stroke="red" points="249.51,-352.37 245.73,-342.47 242.51,-352.57 249.51,-352.37"/>
+<text text-anchor="middle" x="241.5" y="-415.7" font-family="Times,serif" font-size="14.00">else</text>
+</g>
+<!-- node6 -->
+<g id="node8" class="node">
+<title>node6</title>
+<polygon fill="none" stroke="black" points="194.25,-286.5 101.75,-286.5 101.75,-250.5 194.25,-250.5 194.25,-286.5"/>
+<text text-anchor="middle" x="148" y="-263.45" font-family="Times,serif" font-size="14.00">isScary = true</text>
+</g>
+<!-- node5&#45;&gt;node6 -->
+<g id="edge9" class="edge">
+<title>node5&#45;&gt;node6</title>
+<path fill="none" stroke="black" d="M133.73,-358.47C136.34,-342.19 140.33,-317.32 143.43,-298.02"/>
+<polygon fill="black" stroke="black" points="146.85,-298.76 144.98,-288.34 139.94,-297.65 146.85,-298.76"/>
+</g>
+<!-- node7 -->
+<g id="node9" class="node">
+<title>node7</title>
+<polygon fill="none" stroke="black" points="174,-213.5 95.59,-195.5 174,-177.5 252.41,-195.5 174,-213.5"/>
+<text text-anchor="middle" x="174" y="-190.45" font-family="Times,serif" font-size="14.00">if (!isScary)</text>
+</g>
+<!-- node6&#45;&gt;node7 -->
+<g id="edge10" class="edge">
+<title>node6&#45;&gt;node7</title>
+<path fill="none" stroke="black" d="M154.29,-250.31C157.29,-242.14 160.93,-232.19 164.27,-223.08"/>
+<polygon fill="black" stroke="black" points="167.45,-224.57 167.6,-213.98 160.87,-222.16 167.45,-224.57"/>
+</g>
+<!-- node8 -->
+<g id="node10" class="node">
+<title>node8</title>
+<polygon fill="none" stroke="black" points="299,-125 49,-125 49,-89 299,-89 299,-125"/>
+<text text-anchor="middle" x="174" y="-101.95" font-family="Times,serif" font-size="14.00">System.out.println(&quot;DONT RUN AWAY&quot;)</text>
+</g>
+<!-- node7&#45;&gt;node8 -->
+<g id="edge11" class="edge">
+<title>node7&#45;&gt;node8</title>
+<path fill="none" stroke="red" stroke-dasharray="1,5" d="M174,-177C174,-165.51 174,-150.2 174,-136.93"/>
+<polygon fill="red" stroke="red" points="177.5,-136.99 174,-126.99 170.5,-136.99 177.5,-136.99"/>
+<text text-anchor="middle" x="185.62" y="-146.2" font-family="Times,serif" font-size="14.00">then</text>
+</g>
+<!-- end1 -->
+<g id="node11" class="node">
+<title>end1</title>
+<polygon fill="red" stroke="red" points="201,-52 147,-52 147,-16 201,-16 201,-52"/>
+<text text-anchor="middle" x="174" y="-28.95" font-family="Times,serif" font-size="14.00" fill="white">end</text>
+</g>
+<!-- node8&#45;&gt;end1 -->
+<g id="edge12" class="edge">
+<title>node8&#45;&gt;end1</title>
+<path fill="none" stroke="black" d="M174,-88.81C174,-81.23 174,-72.1 174,-63.54"/>
+<polygon fill="black" stroke="black" points="177.5,-63.54 174,-53.54 170.5,-63.54 177.5,-63.54"/>
+</g>
+<!-- node9&#45;&gt;node7 -->
+<g id="edge13" class="edge">
+<title>node9&#45;&gt;node7</title>
+<path fill="none" stroke="red" stroke-dasharray="1,5" d="M234.27,-304.12C222.29,-282.73 201.86,-246.25 188.15,-221.77"/>
+<polygon fill="red" stroke="red" points="191.23,-220.11 183.29,-213.09 185.12,-223.53 191.23,-220.11"/>
+</g>
+<!-- start2 -->
+<g id="node13" class="node">
+<title>start2</title>
+<polygon fill="green" stroke="green" points="651,-914 597,-914 597,-878 651,-878 651,-914"/>
+<text text-anchor="middle" x="624" y="-890.95" font-family="Times,serif" font-size="14.00" fill="white">start</text>
+</g>
+<!-- node10 -->
+<g id="node14" class="node">
+<title>node10</title>
+<polygon fill="none" stroke="black" points="624,-841 560.06,-823 624,-805 687.94,-823 624,-841"/>
+<text text-anchor="middle" x="624" y="-817.95" font-family="Times,serif" font-size="14.00">if (x &gt; 1)</text>
+</g>
+<!-- start2&#45;&gt;node10 -->
+<g id="edge14" class="edge">
+<title>start2&#45;&gt;node10</title>
+<path fill="none" stroke="black" d="M624,-877.81C624,-870.23 624,-861.1 624,-852.54"/>
+<polygon fill="black" stroke="black" points="627.5,-852.54 624,-842.54 620.5,-852.54 627.5,-852.54"/>
+</g>
+<!-- node11 -->
+<g id="node15" class="node">
+<title>node11</title>
+<polygon fill="none" stroke="black" points="664.88,-752.5 381.12,-752.5 381.12,-716.5 664.88,-716.5 664.88,-752.5"/>
+<text text-anchor="middle" x="523" y="-729.45" font-family="Times,serif" font-size="14.00">System.out.println(&quot;X IS GREATER THAN 1!&quot;)</text>
+</g>
+<!-- node10&#45;&gt;node11 -->
+<g id="edge15" class="edge">
+<title>node10&#45;&gt;node11</title>
+<path fill="none" stroke="black" d="M608.66,-808.86C593.67,-796.03 570.49,-776.17 552.01,-760.35"/>
+<polygon fill="black" stroke="black" points="554.4,-757.79 544.53,-753.94 549.85,-763.1 554.4,-757.79"/>
+<text text-anchor="middle" x="593.62" y="-773.7" font-family="Times,serif" font-size="14.00">then</text>
+</g>
+<!-- node12 -->
+<g id="node16" class="node">
+<title>node12</title>
+<polygon fill="none" stroke="black" points="555,-679.5 420.13,-661.5 555,-643.5 689.87,-661.5 555,-679.5"/>
+<text text-anchor="middle" x="555" y="-656.45" font-family="Times,serif" font-size="14.00">if (str.equals(&quot;Scary&quot;))</text>
+</g>
+<!-- node10&#45;&gt;node12 -->
+<g id="edge16" class="edge">
+<title>node10&#45;&gt;node12</title>
+<path fill="none" stroke="black" d="M638.78,-808.76C659.91,-788.19 694.09,-747.68 674,-716.5 661.49,-697.09 640.11,-684.57 618.9,-676.54"/>
+<polygon fill="black" stroke="black" points="620.23,-673.3 609.63,-673.34 617.94,-679.91 620.23,-673.3"/>
+<text text-anchor="middle" x="690.5" y="-729.45" font-family="Times,serif" font-size="14.00">else</text>
+</g>
+<!-- node11&#45;&gt;node12 -->
+<g id="edge17" class="edge">
+<title>node11&#45;&gt;node12</title>
+<path fill="none" stroke="black" d="M530.75,-716.31C534.47,-708.05 539.01,-697.97 543.16,-688.78"/>
+<polygon fill="black" stroke="black" points="546.22,-690.49 547.14,-679.94 539.84,-687.61 546.22,-690.49"/>
+</g>
+<!-- node13 -->
+<g id="node17" class="node">
+<title>node13</title>
+<polygon fill="none" stroke="black" points="596.25,-591 395.75,-591 395.75,-555 596.25,-555 596.25,-591"/>
+<text text-anchor="middle" x="496" y="-567.95" font-family="Times,serif" font-size="14.00">System.out.println(&quot;BOOOOO!&quot;)</text>
+</g>
+<!-- node12&#45;&gt;node13 -->
+<g id="edge18" class="edge">
+<title>node12&#45;&gt;node13</title>
+<path fill="none" stroke="black" d="M544.18,-644.63C535.8,-632.35 524,-615.06 514.18,-600.66"/>
+<polygon fill="black" stroke="black" points="517.14,-598.79 508.62,-592.5 511.36,-602.73 517.14,-598.79"/>
+<text text-anchor="middle" x="541.62" y="-612.2" font-family="Times,serif" font-size="14.00">then</text>
+</g>
+<!-- node17 -->
+<g id="node22" class="node">
+<title>node17</title>
+<polygon fill="none" stroke="black" points="657.5,-537 560.5,-537 560.5,-501 657.5,-501 657.5,-537"/>
+<text text-anchor="middle" x="609" y="-513.95" font-family="Times,serif" font-size="14.00">isScary = false</text>
+</g>
+<!-- node12&#45;&gt;node17 -->
+<g id="edge19" class="edge">
+<title>node12&#45;&gt;node17</title>
+<path fill="none" stroke="black" d="M570.03,-645.17C581.89,-632 597.61,-611.88 605,-591 609.73,-577.63 611.02,-561.97 611,-548.76"/>
+<polygon fill="black" stroke="black" points="614.51,-548.87 610.73,-538.97 607.51,-549.07 614.51,-548.87"/>
+<text text-anchor="middle" x="606.5" y="-612.2" font-family="Times,serif" font-size="14.00">else</text>
+</g>
+<!-- node14 -->
+<g id="node18" class="node">
+<title>node14</title>
+<polygon fill="none" stroke="black" points="559.25,-483 466.75,-483 466.75,-447 559.25,-447 559.25,-483"/>
+<text text-anchor="middle" x="513" y="-459.95" font-family="Times,serif" font-size="14.00">isScary = true</text>
+</g>
+<!-- node13&#45;&gt;node14 -->
+<g id="edge20" class="edge">
+<title>node13&#45;&gt;node14</title>
+<path fill="none" stroke="black" d="M498.73,-554.97C501.34,-538.69 505.33,-513.82 508.43,-494.52"/>
+<polygon fill="black" stroke="black" points="511.85,-495.26 509.98,-484.84 504.94,-494.15 511.85,-495.26"/>
+</g>
+<!-- node15 -->
+<g id="node19" class="node">
+<title>node15</title>
+<polygon fill="none" stroke="black" points="539,-394.5 460.59,-376.5 539,-358.5 617.41,-376.5 539,-394.5"/>
+<text text-anchor="middle" x="539" y="-371.45" font-family="Times,serif" font-size="14.00">if (!isScary)</text>
+</g>
+<!-- node14&#45;&gt;node15 -->
+<g id="edge21" class="edge">
+<title>node14&#45;&gt;node15</title>
+<path fill="none" stroke="black" d="M518.14,-446.91C521.77,-434.83 526.71,-418.39 530.87,-404.55"/>
+<polygon fill="black" stroke="black" points="534.18,-405.71 533.7,-395.13 527.47,-403.7 534.18,-405.71"/>
+</g>
+<!-- node16 -->
+<g id="node20" class="node">
+<title>node16</title>
+<polygon fill="none" stroke="black" points="664,-286.5 414,-286.5 414,-250.5 664,-250.5 664,-286.5"/>
+<text text-anchor="middle" x="539" y="-263.45" font-family="Times,serif" font-size="14.00">System.out.println(&quot;DONT RUN AWAY&quot;)</text>
+</g>
+<!-- node15&#45;&gt;node16 -->
+<g id="edge22" class="edge">
+<title>node15&#45;&gt;node16</title>
+<path fill="none" stroke="black" d="M539,-358C539,-341.71 539,-317.15 539,-298.03"/>
+<polygon fill="black" stroke="black" points="542.5,-298.19 539,-288.19 535.5,-298.19 542.5,-298.19"/>
+<text text-anchor="middle" x="550.62" y="-317.45" font-family="Times,serif" font-size="14.00">then</text>
+</g>
+<!-- end2 -->
+<g id="node21" class="node">
+<title>end2</title>
+<polygon fill="red" stroke="red" points="566,-213.5 512,-213.5 512,-177.5 566,-177.5 566,-213.5"/>
+<text text-anchor="middle" x="539" y="-190.45" font-family="Times,serif" font-size="14.00" fill="white">end</text>
+</g>
+<!-- node16&#45;&gt;end2 -->
+<g id="edge23" class="edge">
+<title>node16&#45;&gt;end2</title>
+<path fill="none" stroke="black" d="M539,-250.31C539,-242.73 539,-233.6 539,-225.04"/>
+<polygon fill="black" stroke="black" points="542.5,-225.04 539,-215.04 535.5,-225.04 542.5,-225.04"/>
+</g>
+<!-- node17&#45;&gt;node15 -->
+<g id="edge24" class="edge">
+<title>node17&#45;&gt;node15</title>
+<path fill="none" stroke="black" d="M600.42,-500.77C588.24,-476.34 565.88,-431.46 551.76,-403.12"/>
+<polygon fill="black" stroke="black" points="555.06,-401.88 547.47,-394.5 548.79,-405.01 555.06,-401.88"/>
+</g>
+</g>
+</svg>
